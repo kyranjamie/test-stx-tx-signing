@@ -1,0 +1,25 @@
+{
+  "name": "test-stx-tx-signing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kyranjamie/test-stx-tx-signing.git",
+  "author": "kyranjamie <kyran.burraston@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "prettier": "@blockstack/prettier-config",
+  "dependencies": {
+    "@blockstack/prettier-config": "^0.0.6",
+    "@blockstack/stacks-transactions": "0.6.0-test.1",
+    "@ledgerhq/hw-transport-node-hid": "^5.21.0",
+    "@zondax/ledger-blockstack": "^0.0.1",
+    "bn.js": "^5.1.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4"
+  }
+}
